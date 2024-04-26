@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .nav_component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .nav_component1 img {
+    width: 25%;
+    max-width: 200px; /* Limit maximum width of the image */
+  }
+  
+  .nav_component1 {
+    width: 25%;
+  }
+  
+  .nav_component2 ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav_component2 ul li {
+    font-size: 20px; /* Adjust font size */
+    font-weight: 600;
+  }
+  
+  .hero_image img {
+    width: 100%;
+  }
+  
+  .hero_image {
+    background-color: rgb(226, 221, 221);
+  }
+  
+  .hero_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .hero_bottom h3 {
+    width: 100%;
+    max-width: 350px;
+    font-weight: 300;
+  }
+  
+  .bottom_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .bottom_content_div {
+    flex: 1 1 30%;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .bottom_content_div img {
+    width: 100%;
+  }
+  
+  .bottom_content p {
+    font-weight: 600;
+  }
+  
+  .loreum_head {
+    padding: 20px;
+    margin: 0;
+    font-size: 40px;
+  }
+  
+  .font_icons {
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+  
+  button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav_component2 ul li {
+      font-size: 16px; /* Adjust font size */
+    }
+  
+    .hero_bottom h3 {
+      max-width: 250px;
+    }
+  
+    .loreum_head {
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .nav_component2 {
+      display: none;
+    }
+  
+    .nav_component3 {
+      margin-right: 10px;
+    }
+  
+    .font_icons {
+      width: 20px;
+      height: 20px;
+      font-size: 14px;
+    }
+  
+    .hero_bottom {
+      flex-direction: column;
+    }
+  }
+  
